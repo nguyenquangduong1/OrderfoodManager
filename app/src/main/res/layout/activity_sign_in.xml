@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    tools:context=".SignIn">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:id="@+id/edtPhone"
+            android:text="1234"
+            android:hint="Tài khoản Admin"
+            android:textColorHint="@android:color/white"
+            android:textColor="@android:color/white"
+            android:textSize="34sp"
+            app:met_baseColor="@android:color/white"
+            app:met_maxCharacters="11"
+            android:inputType="phone"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@android:color/white"
+            app:met_singleLineEllipsis="true"
+            android:layout_height="wrap_content" />
+
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edtPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mật khẩu"
+            android:inputType="textPassword"
+            android:text="1234"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:textSize="24dp"
+            app:met_baseColor="@android:color/white"
+            app:met_floatingLabel="highlight"
+            app:met_maxCharacters="11"
+            app:met_primaryColor="@android:color/white"
+            app:met_singleLineEllipsis="true"  />
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+    <info.hoang8f.widget.FButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:id="@+id/btnSignIn"
+        android:backgroundTint="#D5E7B967"
+        android:text="Đăng Nhập"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="8dp"
+        android:textColor="@color/cart"
+        app:shadowColor="@android:color/black"
+
+        app:buttonColor="@color/btnSignUpActive"
+        />
+
+</RelativeLayout>

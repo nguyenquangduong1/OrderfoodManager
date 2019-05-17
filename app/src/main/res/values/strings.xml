@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">OrderFoodManager</string>
+    <string name="slogan">Chào Mừng Bạn Đến với Nơi hạnh phúc nhất trên trái đất </string>
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Làm mới</string>
+    <string name="title_activity_tracking_order">TrackingOrder</string>
+
+</resources>

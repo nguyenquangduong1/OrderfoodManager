@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:cardElevation="4dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:id="@+id/edtName"
+            android:hint="Tên Chủ Đề Mới"
+            android:textColorHint="#333"
+            android:textColor="#333"
+            android:textSize="34sp"
+            app:met_baseColor="#333"
+            app:met_maxCharacters="11"
+            android:inputType="text"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="#333"
+            app:met_singleLineEllipsis="true"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+
+
+            <info.hoang8f.widget.FButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
+                android:id="@+id/btnSelect"
+                android:layout_weight="1"
+                android:text="CHỌN HÌNH"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="8dp"
+                android:textColor="@android:color/white"
+                app:shadowColor="@android:color/black"
+                android:backgroundTint="#EBC579"
+                app:buttonColor="@android:color/white"
+                />
+
+            <info.hoang8f.widget.FButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
+                android:id="@+id/btnUpload"
+                android:layout_weight="1"
+                android:text="LƯU"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="8dp"
+                android:textColor="@android:color/white"
+                app:shadowColor="@android:color/black"
+                android:backgroundTint="#EBC579"
+
+                app:buttonColor="@android:color/white"
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
